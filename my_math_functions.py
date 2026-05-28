@@ -1,12 +1,6 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
 def print_hi(s):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {s}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Hi, {s}')
 
 def add(x, y, z):       # Adds 3 parameters and returns the sum
     return x + y + z
@@ -21,10 +15,15 @@ def cube(x):
     return x ** 3
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
 
     sum = add(2,5,7)
     print(sum)
+
+    concatenate = add('Hello', 'World', 'Python')
+    print(concatenate)
+
+    repeat = multiplication('Hello', 3)
+    print(repeat)
 
     product = multiplication(3,4)
     print(product)
@@ -40,7 +39,3 @@ if __name__ == '__main__':
 
     power3 = cube(3)
     print(power3)
-
-
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
